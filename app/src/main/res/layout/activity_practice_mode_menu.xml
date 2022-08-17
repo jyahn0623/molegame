@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mole_main_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".PracticeModeMenu">
+
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="708dp"
+        android:layout_height="622dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="135dp"
+        android:src="@drawable/mole_perfect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pratice1btn"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="1292dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClickedPractice1Mode"
+        app:layout_constraintBottom_toTopOf="@+id/halfrandomebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mole_practice1_btn" />
+
+    <ImageView
+        android:id="@+id/halfrandomebtn"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="onClickedHalfRandomMode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/mole_halrandom_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

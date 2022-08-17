@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">molegame</string>
+    <string name="server">http://58.120.166.106:8009</string>
+    <string name="socket">ws://58.120.166.106:8009</string>
+    <string name="test_server">http://58.120.166.106:8009</string>
+    <string name="test_socket">ws://58.120.166.106:8009</string>
+    <string name="preference_file_key">co.kr.molegame</string>
+</resources>

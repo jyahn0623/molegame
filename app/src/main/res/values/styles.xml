@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ff">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="SpinnerTheme">
+        <item name="android:textColor">#000</item>
+        <item name="android:fontFamily">@font/jalnan</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="NumberPickerStyle">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+</resources>
