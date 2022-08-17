@@ -28,3 +28,8 @@
 - src/main/java/co/kr/molegame/GameHalfRandomSetting : (반랜덤모드) 두더지 게임을 위한 설정 액티비티
 - src/main/java/co/kr/molegame/GamePractice1Mode : (Practice1) 두더지 게임 수행 액티비티
 - src/main/java/co/kr/molegame/GamePractice1ModeSetting : (Practice1) 두더지 게임을 위한 설정 액티비티
+
+## 게임 모드 설명
+- 랜덤모드 : 두더지가 랜덤한 위치에서 생성됩니다. 
+- 반랜덤모드 : 두더지가 (0, 0), (0, N), (N, 0), (N, N) 중 한 군데에서 랜덤으로 생성됩니다.
+- Practice1모드 : 두더지가 [가로, 세로, 좌상-우하, 우상-좌하] 중 사용자가 선택한 패턴으로 생성됩니다.
